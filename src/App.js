@@ -1,7 +1,9 @@
 import React from 'react';
 import logo from './logo.svg';
-import MiComponente from './components/MiComponente'
 import './App.css';
+//Componentes
+import MiComponente from './components/MiComponente'
+import Peliculas from './components/Peliculas'
 
 function App() {
   return (
@@ -14,9 +16,7 @@ function App() {
       </header>
       <section className='componentes'>
         <MiComponente/>
-        <MiComponente/>
-        <MiComponente/>
-
+        <Peliculas/> 
       </section>
     </div>
   );
